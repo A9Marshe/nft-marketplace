@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="523px" preserveAspectRatio="none" style="width:357px;height:523px;background:#FFFFFF;" version="1.1" viewBox="0 0 357 523" width="357px" zoomAndPan="magnify"><defs/><g><!--MD5=[effb032d7dbd5a7786f2feb570f3fd77]
+class NFTMarketplace--><g id="elem_NFTMarketplace"><rect codeLine="11" fill="#F1F1F1" height="382.5781" id="NFTMarketplace" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="263" x="33" y="7"/><ellipse cx="108.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M111.0156,18.875 Q111.1719,18.6563 111.3594,18.5469 Q111.5469,18.4375 111.7656,18.4375 Q112.1406,18.4375 112.375,18.7031 Q112.6094,18.9531 112.6094,19.5625 L112.6094,21.0156 Q112.6094,21.625 112.375,21.8906 Q112.1406,22.1563 111.7656,22.1563 Q111.4219,22.1563 111.2188,21.9531 Q111.0156,21.7656 110.9063,21.25 Q110.8594,20.8906 110.6719,20.7031 Q110.3438,20.3281 109.7344,20.1094 Q109.125,19.8906 108.5,19.8906 Q107.7344,19.8906 107.0938,20.2188 Q106.4688,20.5469 105.9688,21.2969 Q105.4844,22.0469 105.4844,23.0781 L105.4844,24.1719 Q105.4844,25.4063 106.375,26.2344 Q107.2656,27.0469 108.8594,27.0469 Q109.7969,27.0469 110.4531,26.7969 Q110.8438,26.6406 111.2656,26.2031 Q111.5313,25.9375 111.6719,25.8594 Q111.8281,25.7813 112.0313,25.7813 Q112.3594,25.7813 112.6094,26.0469 Q112.875,26.2969 112.875,26.6406 Q112.875,26.9844 112.5313,27.3906 Q112.0313,27.9688 111.2344,28.2969 Q110.1563,28.75 108.8594,28.75 Q107.3438,28.75 106.1406,28.125 Q105.1563,27.625 104.4688,26.5625 Q103.7813,25.4844 103.7813,24.2031 L103.7813,23.0469 Q103.7813,21.7188 104.3906,20.5781 Q105.0156,19.4219 106.1094,18.8125 Q107.2031,18.1875 108.4375,18.1875 Q109.1719,18.1875 109.8125,18.3594 Q110.4688,18.5156 111.0156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="128.75" y="28.7285">NFTMarketplace</text><line style="stroke:#181818;stroke-width:0.5;" x1="34" x2="295" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="127" x="53" y="57.5332">ERC721URIStorage</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="53" y="75.1426"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="93" x="53" y="92.752">&#128218;Counters for</text><a href="Counters.Counter" target="_top" title="Counters.Counter" xlink:actuate="onRequest" xlink:href="Counters.Counter" xlink:show="new" xlink:title="Counters.Counter" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" text-decoration="underline" textLength="113" x="150" y="92.752">Counters.Counter</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="53" y="110.3613"> </text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="41" y="120.7422"/><a href="Counters.Counter" target="_top" title="Counters.Counter" xlink:actuate="onRequest" xlink:href="Counters.Counter" xlink:show="new" xlink:title="Counters.Counter" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="113" x="53" y="127.9707">Counters.Counter</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="170" y="127.9707">_tokenIds</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="41" y="138.3516"/><a href="Counters.Counter" target="_top" title="Counters.Counter" xlink:actuate="onRequest" xlink:href="Counters.Counter" xlink:show="new" xlink:title="Counters.Counter" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="113" x="53" y="145.5801">Counters.Counter</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="170" y="145.5801">_itemsSold</text><polygon fill="none" points="44,153.9609,48,157.9609,44,161.9609,40,157.9609" style="stroke:#B38D22;stroke-width:1.0;"/><a href="uint256" target="_top" title="uint256" xlink:actuate="onRequest" xlink:href="uint256" xlink:show="new" xlink:title="uint256" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="47" x="53" y="163.1895">uint256</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="104" y="163.1895">listingPrice</text><polygon fill="none" points="44,171.5703,48,175.5703,44,179.5703,40,175.5703" style="stroke:#B38D22;stroke-width:1.0;"/><a href="address" target="_top" title="address" xlink:actuate="onRequest" xlink:href="address" xlink:show="new" xlink:title="address" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="51" x="53" y="180.7988">address</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="108" y="180.7988">owner</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="41" y="191.1797"/><a href="mapping" target="_top" title="mapping" xlink:actuate="onRequest" xlink:href="mapping" xlink:show="new" xlink:title="mapping" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="132" x="53" y="198.4082">uint256=&gt;MarketItem</text></a><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="193" y="198.4082">idToMarketItem</text><line style="stroke:#181818;stroke-width:0.5;" x1="34" x2="295" y1="205.4844" y2="205.4844"/><ellipse cx="44" cy="219.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="53" y="224.0176">__constructor__</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="10" x="167" y="224.0176">()</text><ellipse cx="44" cy="237.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="53" y="241.627">&#128176;updateListingPrice()</text><ellipse cx="44" cy="255.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="53" y="259.2363">&#128269;getListingPrice()</text><ellipse cx="44" cy="272.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="53" y="276.8457">&#128176;createToken()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="41" y="287.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="53" y="294.4551">createMarketItem()</text><ellipse cx="44" cy="307.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="53" y="312.0645">&#128176;resellToken()</text><ellipse cx="44" cy="325.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="53" y="329.6738">&#128176;createMarketSale()</text><ellipse cx="44" cy="343.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="53" y="347.2832">&#128269;fetchMarketItems()</text><ellipse cx="44" cy="360.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="53" y="364.8926">&#128269;fetchMyNFTs()</text><ellipse cx="44" cy="378.2734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="53" y="382.502">&#128269;fetchItemsListed()</text></g><!--MD5=[5475a6438f9466d7dff9f0b072669a3f]
+class ERC721URIStorage--><g id="elem_ERC721URIStorage"><rect fill="#F1F1F1" height="48" id="ERC721URIStorage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="7" y="468"/><ellipse cx="22" cy="484" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24.7656,479.875 Q24.9219,479.6563 25.1094,479.5469 Q25.2969,479.4375 25.5156,479.4375 Q25.8906,479.4375 26.125,479.7031 Q26.3594,479.9531 26.3594,480.5625 L26.3594,482.0156 Q26.3594,482.625 26.125,482.8906 Q25.8906,483.1563 25.5156,483.1563 Q25.1719,483.1563 24.9688,482.9531 Q24.7656,482.7656 24.6563,482.25 Q24.6094,481.8906 24.4219,481.7031 Q24.0938,481.3281 23.4844,481.1094 Q22.875,480.8906 22.25,480.8906 Q21.4844,480.8906 20.8438,481.2188 Q20.2188,481.5469 19.7188,482.2969 Q19.2344,483.0469 19.2344,484.0781 L19.2344,485.1719 Q19.2344,486.4063 20.125,487.2344 Q21.0156,488.0469 22.6094,488.0469 Q23.5469,488.0469 24.2031,487.7969 Q24.5938,487.6406 25.0156,487.2031 Q25.2813,486.9375 25.4219,486.8594 Q25.5781,486.7813 25.7813,486.7813 Q26.1094,486.7813 26.3594,487.0469 Q26.625,487.2969 26.625,487.6406 Q26.625,487.9844 26.2813,488.3906 Q25.7813,488.9688 24.9844,489.2969 Q23.9063,489.75 22.6094,489.75 Q21.0938,489.75 19.8906,489.125 Q18.9063,488.625 18.2188,487.5625 Q17.5313,486.4844 17.5313,485.2031 L17.5313,484.0469 Q17.5313,482.7188 18.1406,481.5781 Q18.7656,480.4219 19.8594,479.8125 Q20.9531,479.1875 22.1875,479.1875 Q22.9219,479.1875 23.5625,479.3594 Q24.2188,479.5156 24.7656,479.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="36" y="489.7285">ERC721URIStorage</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="163" y1="500" y2="500"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="163" y1="508" y2="508"/></g><!--MD5=[cd73aad4f924536e6dc1520e1cb5df86]
+class Counters--><g id="elem_Counters"><rect fill="#F1F1F1" height="48" id="Counters" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="199.5" y="468"/><ellipse cx="214.5" cy="484" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M217.2656,479.875 Q217.4219,479.6563 217.6094,479.5469 Q217.7969,479.4375 218.0156,479.4375 Q218.3906,479.4375 218.625,479.7031 Q218.8594,479.9531 218.8594,480.5625 L218.8594,482.0156 Q218.8594,482.625 218.625,482.8906 Q218.3906,483.1563 218.0156,483.1563 Q217.6719,483.1563 217.4688,482.9531 Q217.2656,482.7656 217.1563,482.25 Q217.1094,481.8906 216.9219,481.7031 Q216.5938,481.3281 215.9844,481.1094 Q215.375,480.8906 214.75,480.8906 Q213.9844,480.8906 213.3438,481.2188 Q212.7188,481.5469 212.2188,482.2969 Q211.7344,483.0469 211.7344,484.0781 L211.7344,485.1719 Q211.7344,486.4063 212.625,487.2344 Q213.5156,488.0469 215.1094,488.0469 Q216.0469,488.0469 216.7031,487.7969 Q217.0938,487.6406 217.5156,487.2031 Q217.7813,486.9375 217.9219,486.8594 Q218.0781,486.7813 218.2813,486.7813 Q218.6094,486.7813 218.8594,487.0469 Q219.125,487.2969 219.125,487.6406 Q219.125,487.9844 218.7813,488.3906 Q218.2813,488.9688 217.4844,489.2969 Q216.4063,489.75 215.1094,489.75 Q213.5938,489.75 212.3906,489.125 Q211.4063,488.625 210.7188,487.5625 Q210.0313,486.4844 210.0313,485.2031 L210.0313,484.0469 Q210.0313,482.7188 210.6406,481.5781 Q211.2656,480.4219 212.3594,479.8125 Q213.4531,479.1875 214.6875,479.1875 Q215.4219,479.1875 216.0625,479.3594 Q216.7188,479.5156 217.2656,479.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="228.5" y="489.7285">Counters</text><line style="stroke:#181818;stroke-width:0.5;" x1="200.5" x2="288.5" y1="500" y2="500"/><line style="stroke:#181818;stroke-width:0.5;" x1="200.5" x2="288.5" y1="508" y2="508"/></g><!--MD5=[a78e5a24d4eaad0d60a0fedb3665c462]
+link NFTMarketplace to ERC721URIStorage--><g id="link_NFTMarketplace_ERC721URIStorage"><path codeLine="39" d="M112.8,390.27 C106.95,411.84 101.51,431.94 97.04,448.43 " fill="none" id="NFTMarketplace-to-ERC721URIStorage" style="stroke:#B8860B;stroke-width:1.0;"/><polygon fill="none" points="103.77,450.36,91.78,467.84,90.25,446.7,103.77,450.36" style="stroke:#B8860B;stroke-width:1.0;"/></g><!--MD5=[9a1f05ac6037c69c77df1336d019e277]
+link NFTMarketplace to Counters--><g id="link_NFTMarketplace_Counters"><path codeLine="40" d="M216.86,390.27 C222.77,411.84 228.29,431.94 232.82,448.43 " fill="none" id="NFTMarketplace-to-Counters" style="stroke:#556B2F;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="239.6,446.7,238.14,467.84,226.1,450.4,239.6,446.7" style="stroke:#556B2F;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="120" x="229.5" y="434.4951">for Counters.Counter</text></g><!--MD5=[7ff245a33a2c217e4cd002f1feb43f95]
+@startuml NFTMarketplace
+' - - generated by: https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor
+'
+' - - for auto-render install: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+' - - options - -
+
+
+
+' - - classes - -
+
+
+class NFTMarketplace {
+    ' - - inheritance - -
+	{abstract}ERC721URIStorage
+
+    ' - - usingFor - -
+	{abstract}📚Counters for [[Counters.Counter]]
+
+    ' - - vars - -
+	-[[Counters.Counter]] _tokenIds
+	-[[Counters.Counter]] _itemsSold
+	#[[uint256]] listingPrice
+	#[[address]] owner
+	-[[mapping uint256=>MarketItem ]] idToMarketItem
+
+    ' - - methods - -
+	+**__constructor__**()
+	+💰updateListingPrice()
+	+🔍getListingPrice()
+	+💰createToken()
+	-createMarketItem()
+	+💰resellToken()
+	+💰createMarketSale()
+	+🔍fetchMarketItems()
+	+🔍fetchMyNFTs()
+	+🔍fetchItemsListed()
+
+}
+' - - inheritance / usingFor - -
+NFTMarketplace - -[#DarkGoldenRod]|> ERC721URIStorage
+NFTMarketplace ..[#DarkOliveGreen]|> Counters : //for Counters.Counter//
+
+@enduml
+
+@startuml NFTMarketplace
+
+
+
+
+
+class NFTMarketplace {
+	{abstract}ERC721URIStorage
+
+	{abstract}📚Counters for [[Counters.Counter]]
+
+	-[[Counters.Counter]] _tokenIds
+	-[[Counters.Counter]] _itemsSold
+	#[[uint256]] listingPrice
+	#[[address]] owner
+	-[[mapping uint256=>MarketItem ]] idToMarketItem
+
+	+**__constructor__**()
+	+💰updateListingPrice()
+	+🔍getListingPrice()
+	+💰createToken()
+	-createMarketItem()
+	+💰resellToken()
+	+💰createMarketSale()
+	+🔍fetchMarketItems()
+	+🔍fetchMyNFTs()
+	+🔍fetchItemsListed()
+
+}
+NFTMarketplace - -[#DarkGoldenRod]|> ERC721URIStorage
+NFTMarketplace ..[#DarkOliveGreen]|> Counters : //for Counters.Counter//
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 EEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
