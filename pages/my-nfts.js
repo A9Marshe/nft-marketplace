@@ -4,7 +4,7 @@ import axios from "axios";
 import Web3Modal from "web3modal";
 import { useRouter } from "next/router";
 
-import { marketplaceAddress } from "../config.js";
+import { marketplaceAddress } from "../Addressconfig.js";
 
 import NFTMarketplace from "../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json";
 
