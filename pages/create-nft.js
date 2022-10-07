@@ -1,3 +1,4 @@
+/* pages/create-nft.js */
 import { useState } from "react";
 import { ethers } from "ethers";
 import { create as ipfsHttpClient } from "ipfs-http-client";
@@ -6,7 +7,7 @@ import Web3Modal from "web3modal";
 
 const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
 
-import { marketplaceAddress } from "../config";
+import { marketplaceAddress } from "../config.js";
 
 import NFTMarketplace from "../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json";
 
@@ -20,6 +21,7 @@ export default function CreateItem() {
   const router = useRouter();
 
   async function onChange(e) {
+    /* upload image to IPFS */
     const file = e.target.files[0];
     try {
       const added = await client.add(file, {
@@ -34,7 +36,7 @@ export default function CreateItem() {
   async function uploadToIPFS() {
     const { name, description, price } = formInput;
     if (!name || !description || !price || !fileUrl) return;
-    /* first, upload to IPFS */
+    /* first, upload metadata to IPFS */
     const data = JSON.stringify({
       name,
       description,
@@ -43,10 +45,9 @@ export default function CreateItem() {
     try {
       const added = await client.add(data);
       const url = `https://ipfs.infura.io/ipfs/${added.path}`;
-      /* after file is uploaded to IPFS, return the URL to use it in the transaction */
+      /* after metadata is uploaded to IPFS, return the URL to use it in the transaction */
       return url;
     } catch (error) {
-      console.log(client);
       console.log("Error uploading file: ", error);
     }
   }
@@ -58,7 +59,7 @@ export default function CreateItem() {
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
 
-    /* next, create the item */
+    /* create the NFT */
     const price = ethers.utils.parseUnits(formInput.price, "ether");
     let contract = new ethers.Contract(
       marketplaceAddress,
