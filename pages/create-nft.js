@@ -1,11 +1,9 @@
 /* pages/create-nft.js */
 import { useState } from "react";
 import { ethers } from "ethers";
-import { create as ipfsHttpClient } from "ipfs-http-client";
 import { useRouter } from "next/router";
 import Web3Modal from "web3modal";
-
-const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
+import { storeWithProgress } from "../utils/We3Storage";
 
 import { marketplaceAddress } from "../Addressconfig.js";
 
@@ -13,6 +11,7 @@ import NFTMarketplace from "../artifacts/contracts/NFTMarketplace.sol/NFTMarketp
 
 export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null);
+  const [fileName, setFileName] = useState();
   const [formInput, updateFormInput] = useState({
     price: "",
     name: "",
@@ -22,12 +21,15 @@ export default function CreateItem() {
 
   async function onChange(e) {
     /* upload image to IPFS */
-    const file = e.target.files[0];
+    const file = e.target.files;
     try {
-      const added = await client.add(file, {
-        progress: (prog) => console.log(`received: ${prog}`),
-      });
-      const url = `https://ipfs.infura.io/ipfs/${added.path}`;
+      console.log("uploading file ", file[0]);
+      setFileName(file[0].name);
+      const cid = await storeWithProgress(file);
+      console.log("uploaded file @: ", cid);
+      console.log(`now fetching from IPFS:
+       https://w3s.link/ipfs/${cid}/${file[0].name}`);
+      const url = `https://w3s.link/ipfs/${cid}/${file[0].name}`;
       setFileUrl(url);
     } catch (error) {
       console.log("Error uploading file: ", error);
@@ -37,14 +39,21 @@ export default function CreateItem() {
     const { name, description, price } = formInput;
     if (!name || !description || !price || !fileUrl) return;
     /* first, upload metadata to IPFS */
-    const data = JSON.stringify({
+    const data = {
       name,
       description,
       image: fileUrl,
-    });
+    };
     try {
-      const added = await client.add(data);
-      const url = `https://ipfs.infura.io/ipfs/${added.path}`;
+      const blob = new Blob([JSON.stringify(data)], {
+        type: "application/json",
+      });
+      let jsonFile = [new File([blob], "hello.json")];
+      const cid = await storeWithProgress(jsonFile);
+      console.log("Got this json CID", cid);
+      console.log(`now fetching json from IPFS:
+       https://w3s.link/ipfs/${cid}/hello.json`);
+      const url = ` https://w3s.link/ipfs/${cid}/hello.json`;
       /* after metadata is uploaded to IPFS, return the URL to use it in the transaction */
       return url;
     } catch (error) {
@@ -53,7 +62,9 @@ export default function CreateItem() {
   }
 
   async function listNFTForSale() {
+    console.log("setting up transaction");
     const url = await uploadToIPFS();
+    console.log(`imaged uploaded @ ${url}`);
     const web3Modal = new Web3Modal();
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
@@ -71,8 +82,9 @@ export default function CreateItem() {
     let transaction = await contract.createToken(url, price, {
       value: listingPrice,
     });
+    console.log("transaction started!");
     await transaction.wait();
-
+    console.log("transaction complete!");
     router.push("/");
   }
 
